@@ -1,0 +1,81 @@
+SERVERE 1 ------SERVER 2
+SSH @IP ADDRESS
+PERMIT ROOT IS ENABLED (DEFAULTLY)
+
+github
+source forge
+aws code commit	
+bit bucket
+
+git --version
+git config
+git config --list --show-origin
+cat .gitconfig
+
+git config --global user.email 
+git config --global user.skypeid
+
+git clone https://github.com/lingalamahesh/myrepo.git
+cd myrepo
+ls -al
+vi README.md
+git status
+git add README.md
+git commit -m"     "
+git push
+
+ssh-keygen -t rsa -b 4096 -C "lmkreddy05@gmail.com"
+press "enter"
+$ ssh-keygen -t rsa -b 4096 -C "lmkreddy05@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/lingala/.ssh/id_rsa):
+Created directory '/c/Users/lingala/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/lingala/.ssh/id_rsa.
+Your public key has been saved in /c/Users/lingala/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:uMLMoFQWW0gS6YfQFAWS5b44XRIHYYsIFV85NOpXDlA lmkreddy05@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|oO#O++E.         |
+|=*o=++o.         |
+|= =++ ...        |
+| +o=   =         |
+| .= o o S        |
+|.+ O . .         |
+|+ o = .          |
+| .   .           |
+|                 |
++----[SHA256]-----+
+ 
+
+eval "$(ssh-agent -s)"
+Agent pid 14840
+
+ ssh-add /c/Users/lingala/.ssh/id_rsa
+Identity added: /c/Users/lingala/.ssh/id_rsa (/c/Users/lingala/.ssh/id_rsa)
+
+ cat  ssh-add /c/Users/lingala/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDj5ofskbTM7gUyMmmi70bnaPL1A5HdoEhmdqvatSe9PR/Wv0xTJ1cQoAaANqAP5NQ3hD17pW4s9cRh3DLKknyelOW1F1vzqGI+NtE7OMcbnk1VVac1CIZ0pmpvNdTLcfVNY1E15uwPAP4Vqtu0d2oC25VMhxzy/oXHJ2uETNyj7CqnqEDG18LkTTkhBEhCypPBdwVN8muMWzQva79CZa+TlYtmOZsjSsAQV2KqnOiMUwLnTlxUceusXdChQNGlSGMyQQJ8QGa4PvI7VJdmvnZCH/VbOd5jHqUA106GUkP/BVsqPCuq77sQzQWClFBxPE9liafdlxY7Sg1ZJTUMnlv/3gl42FDdDhbsXr+MoK40QYOuPRslIxYC8ao1sSVWYD1HhmBoLbBvmFzBfKV6PdarrwfkAcOJnXzWIpUsNdFo9p/Hl5/moPJnLtpWOkTZHeeSzdhR1Sh6Gal7yBdfZECq38Mp1tF7vPdHgeVwE78UGpCzQI+2O1wZpXg2neG5dO/8zb8b32ykjEmY7/Dtv3aHmF9byxiahVNhiUSbv3/WsZ9f/FN4WmgTTK8GutDMcP+JN9Ok1iHVMobVWun54RHvc+4d0+mKm4GgmtTm1qa/OAZoyXpUuST99d5KxZ0pnmJq6TNXk/CtuSVc9vFmpah8uL5X7NOo6k+dTrVjug/seQ== lmkreddy05@gmail.com
+
+ ssh -T git@github.com
+The authenticity of host 'github.com (192.30.253.112)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+Hi lingalamahesh! You've successfully authenticated, but GitHub does not provide shell access.
+
+
+
+
+
+
+
+ (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+ (use "git reset HEAD <file>..." to unstage)
+(use "git push" to publish your local commits)
+
+
+
